@@ -1,0 +1,33 @@
+<!--              HTML                -->
+<html>
+<head>
+    <META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=utf-8"> </META>
+
+<link href="css/musi_z13.css" rel="stylesheet" type="text/CSS">
+    </head>
+<body>
+		<p>:( Smutek</p>
+		 :`( Płacz 
+		<p>:| Brak emocji</p>
+		:D Duży uśmiech
+		<p>:P Wytkniety język</p>
+		:) Uśmiech
+</body>
+</html>
+
+
+
+
+
+
+<!--              CSS                 -->
+body {
+color: blue;
+font-size: 51px;
+ }
+ 
+ p {
+color: green;
+font-size: 41px;
+ }
+ 

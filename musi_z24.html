@@ -1,0 +1,187 @@
+
+<html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </head>
+        <body>
+        <ol>
+            <li><h1>Jakie standardowo dostępne są czcionki w systemie Windows</h1></li>
+            <ul type="square">
+			<li> Times New Roman (szeryfowa)
+			<li> Arial (bezszeryfowa)
+			<li> Courier New (monotypiczna)
+			</ul>
+			
+            <li><h1> Jakich czcionek dodatkowo dostarcza Internet Explorerem </h1></li>
+          <ul type="circle">
+			<li> Verdana
+			<li> Tahoma
+			<li> Trebuchet MS
+			<li> Georgia
+			</ul>
+       
+            <li><h1>Wymień rodziny ogólne</h1></li>
+            <ul type="circle"><u>
+			<li> serif - czcionka szeryfowa (końcówki znaków posiadają "ozdobniki"), np.: 'Times New Roman', Georgia, Garamond, Bodoni
+			<li> sans-serif - czcionka bezszeryfowa (końcówki znaków są proste), np.: Arial, Verdana, 'Trebuchet MS', Helvetica, Univers, Futura
+			<li> monospace - czcionka o stałej szerokości znaków - monotypiczna (wygląda, jak pisana na maszynie), np.: Courier, 'Courier New'
+			<li> cursive - czcionka mająca pewne cechy pochyłej (wygląda, jak pisana ręcznie)
+			<li> fantasy - czcionka fantazyjna (dekoracyjna)
+			</u></ul>
+            
+            <li><h1> Kiedy stosujemy rodziny czcionek, w jaki sposób wpisujemy </h1></li>
+            Rodziny ogólne wykorzystuje się jako ostatnia alternatywa - jeśli użytkownik nie będzie posiadał żadnej czcionki, której nazwę wpisaliśmy wprost. Dlatego zwykle rodzinę ogólną podaje się na samym końcu listy nazw czcionek <br>
+			body { font-family: Arial, Helvetica, Verdana, sans-serif }
+            
+ 
+            <li><h1> Rodzaje wyrównywania tekstu</h1></li>
+            <ul type="circle">
+			<li> Do prawej
+			<li> Do lewej
+			<li> Wyśrodkowanie
+			<li> Wyjustowanie
+			</ul>
+            
+			<li><h1>Kolor tekstu </h1></li>
+            selektor {color: kolor;} <br>
+Wyraz selektor ma zastosowanie do wszystkich elementów.<br>
+Natomiast jako kolor należy podać definicję koloru.<br>
+Dzięki temu poleceniu można ustalić dowolny kolor tekstu.<br>
+			
+			<li><h1>Dekoracja tekstu </h1></li>
+             Tekst można „udekorować” w sposób następujący:<br>
+			 <ol type="a"><u>
+                    <li> Podkreślić - (underline)</li>
+                    <li> Przekreślić - (line-through)</li>
+                    <li> Nadkreślić - (overline)</li>
+					<li> Można dodać migotanie tekstu (tylko Netspace/Mozilla/Opera) – (blink)</li>
+            </u></ol>
+			Składnia reguły:<br>
+selektor {text-decoration: dekoracja;}
+			
+			<li><h1>Warianty czcionek</h1></li>
+            <ul type="circle">
+			<li> normal - czcionka normalna (podstawowa)
+			<li> small-caps - kapitaliki ("kapitaliki", czyli tekst napisany wielkimi literami, lecz czcionką o wielkości małych liter)
+			</ul>
+			
+			<li><h1>Pogrubienie czcionek </h1></li>
+             <ol>
+            <li>normal - czcionka normalna (podstawowa)li>
+            <li>bold - czcionka pogrubiona</li>
+            <li>100, 200, 300, 400 (odpowiednik "normal"), 500, 600, 700 (odpowiednik "bold"), 800, 900 - każdy następny numer wskazuje wagę czcionki przynajmniej tak samo wytłuszczonej jak dla poprzedniej wartości w sekwencji</li>
+			</ol>
+			
+			<li><h1>Rozmiar czcionek </h1></li>
+            <ul type="circle">
+			<li> xx-small - najmniejsza
+			<li> x-small - mniejsza
+			<li> small - mała
+			<li> medium - średnia
+			<li> large - duża
+			<li> x-large - większa
+			<li> xx-large - największa
+			</ul>
+			Z użyciem różnych jednostek: <br>
+			<ul type="circle">
+			<li> rozmiar 0.5cm
+			<li> rozmiar 4mm
+			<li> rozmiar 0.25in
+			<li> rozmiar 10pt
+			<li> rozmiar 1pc
+			<li> rozmiar 15px
+			<li> rozmiar 1em
+			<li> rozmiar 2ex
+			</ul>
+			
+			<li><h1>Transformacja tekstu </h1></li>
+            Składnia reguły:<br>
+selektor {text-transform: transformacja;}<br>
+Wyraz selektor ma zastosowanie do wszystkich elementów.<br>
+transformacja: <br>
+<ul type="circle">
+			<li> "none" - bez zmian
+			<li> "capitalize" - zamiana pierwszych liter wszystkich wyrazów na wielkie
+			<li>  "uppercase" - zamiana wszystkich liter na wielkie
+			<li> "lowercase" - zamiana wszystkich liter na małe
+			</ul>
+			
+			<li><h1>Wcięcia tekstu </h1></li>
+            Składnia reguły:<br>
+            selektor {text-indent: wcięcie;}<br>
+			wcięcie: <br>
+			<ul type="circle">
+			<li> piksele - px
+			<li> punkty edytorskie - pt
+			<li>  wysokość litery "x" - ex
+			<li> wysokość aktualnej czcionki - em
+			<li> centymetry lub milimetry - cm, mm
+			<li>cale - in (1in=2.54cm)
+			<li>procent wielkości nadrzędnej - %
+			</ul>
+			
+			<li><h1>Odstęp między wierszami </h1></li>
+            Składnia reguły: <br>
+            selektor {line-height: odstęp;}<br>
+			odstęp: <br>
+			<ul type="circle">
+			<li> piksele - px
+			<li> punkty edytorskie - pt
+			<li>  wysokość litery "x" - ex
+			<li> wysokość aktualnej czcionki - em
+			<li> centymetry lub milimetry - cm, mm
+			<li>cale - in (1in=2.54cm)
+			<li>procent wielkości nadrzędnej - %
+			<li> "normal" - przywraca wartość domyślną
+			</ul>
+			
+			<li><h1>Odstęp między wyrazami </h1></li>
+            Składnia reguły:<br>
+            selektor {word-spacing: odstęp;} <br>
+			odstęp: <br>
+			<ul type="circle">
+			<li> piksele - px
+			<li> punkty edytorskie - pt
+			<li>  wysokość litery "x" - ex
+			<li> wysokość aktualnej czcionki - em
+			<li> centymetry lub milimetry - cm, mm
+			<li>cale - in (1in=2.54cm)
+			<li> "normal" - przywraca wartość domyślną
+			</ul>
+			
+			<li><h1>Odstęp między literami </h1></li>
+            Składnia reguły:<br>
+            selektor {letter-spacing: odstęp;}<br>
+			odstęp: <br>
+			<ul type="circle">
+			<li> piksele - px
+			<li> punkty edytorskie - pt
+			<li>  wysokość litery "x" - ex
+			<li> wysokość aktualnej czcionki - em
+			<li> centymetry lub milimetry - cm, mm
+			<li>cale - in (1in=2.54cm)
+			<li> "normal" - przywraca wartość domyślną
+			</ul>
+			
+			<li><h1>Łączenie właściwości czcionek i tekstu </h1></li>
+            Składnia reguły:<br>
+            selektor {font: wartości atrybutów;}<br>
+			wartości atrybutów: <br>
+			<ul type="circle">
+			<li> font-style
+			<li> font-variant
+			<li>  font-weight
+			<li> font-size
+			<li> line-height
+			<li> font-family
+			</ul>
+
+        </ol>
+		
+    
+        
+        
+        
+        
+        </body>
+</html>

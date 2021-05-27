@@ -1,0 +1,31 @@
+
+<html>
+    <head>
+    <title>Musiałowska</title>  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link href="css/musialowska_z22.css" rel="stylesheet" type="text/CSS">
+    </head>
+    <body>
+    <p id="gruby_musialowska"> Dominika Musiałowska <br>Informatyka- nauka ścisła oraz techniczna zajmująca się przetwarzaniem informacji, w tym również technologiami przetwarzania informacji oraz technologiami wytwarzania systemów przetwarzających informacje. Zajmuje się rozwiązywaniem problemów obliczeniowych, opisem procesów algorytmicznych oraz tworzeniem programów komputerowych i częściowo sprzętu komputerowego.Informatyka początkowo stanowiła część matematyki, z czasem wyodrębniła się do oddzielnej dyscypliny.</p>
+    <p>Inżynieria kompterowa - zajmuje się tworzeniem systemów komputerowych. Do jej zadań należy projektowanie, wytwarzanie, integracja i eksploatacja sprzętu cyfrowego, w tym urządzeń sieciowych. Początkowo zajmowała się głównie tworzeniem procesorów, a współcześnie ważną jej rolę stanowi także tworzenie sprzętu i sterowników dla systemów wbudowanych, które wraz z pojawieniem się koncepcji IoT mają coraz większe znaczenie. Do jej zagadnień należy architektura i organizacja systemów komputerowych na poziomie sprzętowym oraz oprogramowania sprzętowego.</p>
+    <h1 id="dlawszystkich_musialowska">Architektura komputerów (AK) to główny obszar inżynierii komputerowej zajmujący się projektowaniem i podstawową strukturą systemów komputerowych oraz budową i organizacją ich podzespołów. Główny obszar AK stanowi architektura procesorów na którą składa się model programowy procesora oraz mikroarchitektura procesora. Procesory są głównym elementem systemów komputerowych. Szczególna uwaga jest poświęcona na sposobie, w jaki procesor wykonuje instrukcje i uzyskuje dostęp do adresów w pamięci.</h1>
+    <div id="dlawszystkich_musialowska">Technika cyfrowa zajmuje się projektowaniem i analizą układów cyfrowych. Do jej elementarnych zagadnień należą bramki logiczne, rejestry, układy sekwencyjne i układy kombinacyjne. Obejmuje syntezę logiczną i odwzorowanie technologiczne. Współcześnie jej zagadnienia są kształtowane z jednej strony przez języki opisu sprzętu, a z drugiej przez bezpośrednio programowalne macierze bramek. Układy logiczne początkowo implementowano jako układy mechaniczne, następnie jako elektromechaniczne i dominujące współcześnie układy elektroniczne.<div>
+    </body>
+</html>
+
+<-------------CSS------------->
+p{
+    color: red;
+    font-size: 22pt;
+    
+}
+#gruby_musialowska{
+    color: green;
+    font-size: 17pt;
+    font-weight: bold;
+}
+#dlawszystkich_musialowska{
+    color: yellow;
+    font-size: 10pt;
+    font-family: Arial;
+}

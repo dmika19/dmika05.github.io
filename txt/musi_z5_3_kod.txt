@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>styl wewnętrzny</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+ <style>
+ p {
+ color: #000080;
+ font-size: 55px;
+ }
+</style>
+</head>
+<body>
+<p>Dominika Musiałowska</p>
+    <p>Język C# pojawił się w lipcu 2000r</p>
+ </body>
+</html>
+<!-- 12.02.2021 Dominika Musiałowska !-->

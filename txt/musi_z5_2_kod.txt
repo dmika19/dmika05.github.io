@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>styl zewnętrzny</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- 12.02.2021 Dominika Musiałowska !-->
+ <link href="css/musi_z5_2.css" rel="stylesheet" type="text/CSS">
+
+</head>
+<body>
+<p> Dominika Musiałowska </p>
+    <p>Język C++ pojawił się w 1983 roku</p>
+ </body>
+</html>
+
+
+<!--              CSS                 -->
+p {
+color: #808000;
+font-size: 45px;
+ }

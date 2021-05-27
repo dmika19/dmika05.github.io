@@ -1,0 +1,24 @@
+<html>
+<head>
+    <!-- 12.02.2021 Dominika Musiałowska !-->
+<title>styl importowany</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<style>
+ @import url("css/musi_z5_1.css");
+ </style>
+</head>
+<body>
+    <p> Dominika Musiałowska</p> 
+    <p>Język JavaScript pojawił się 24 lata temu, a dokładnie 4 grudnia 1995 roku</p>
+	
+</body>
+</html>
+
+
+<!--              CSS                 -->
+
+p {
+color: #008000;
+font-size: 65px;
+ }
